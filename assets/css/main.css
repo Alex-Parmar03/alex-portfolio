@@ -1,0 +1,8 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css");
+@import url("https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css");
+@import "./global.css";
+@import "./mega-navigation.css";
+@import "./custom-accordion.css";
+@import "./tabs.css";
+@import "./key-fact.css";
+@import "./footer.css";

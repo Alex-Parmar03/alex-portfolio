@@ -1,0 +1,27 @@
+.tab-btn {
+    background: var(--color-green);
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border: none;
+    font-weight: bold;
+}
+.tab-buttons {
+    display: flex;
+}
+.tab-content {
+    background: var(--color-white-gray);
+    padding: 20px;
+    display: none;
+}
+.tab-content.block {
+    display: block;
+}
+.tab-btn.active {
+    background: var(--color-white-gray);
+    border: 2px solid;
+    border-bottom: 0px;
+    border-top-right-radius: 10px;
+} 
+.tabs {
+    margin-top: 20px;
+}

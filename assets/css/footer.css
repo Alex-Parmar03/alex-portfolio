@@ -1,0 +1,9 @@
+footer {
+    background: var(--color-green);
+}
+footer .social-media {
+    display: flex;
+}
+.social-media a img {
+    height: 40px;
+}
