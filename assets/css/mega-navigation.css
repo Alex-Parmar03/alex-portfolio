@@ -328,11 +328,10 @@ nav span.mega-nav-icon.big-screen::after {
         width: -webkit-fill-available;
         background-color: var(--color-primary-2);
         left: 0;
-        top: 120px;
+        top: 75px;
         display: block;
         visibility: hidden;
         opacity: 0;
-        transition: all 0.5s;
         z-index: 5;
         padding: 20px;
     }
@@ -344,7 +343,8 @@ nav span.mega-nav-icon.big-screen::after {
         display: block;
         visibility: visible;
         opacity: 1;
-        top: 79px;    
+        top: 79px;  
+        transition: all 0.5s;  
     }
     .responsive-back-btn {
         display: none;

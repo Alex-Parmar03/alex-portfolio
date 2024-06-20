@@ -1,9 +1,26 @@
 footer {
-    background: var(--color-green);
+    background: var(--color-primary-2);
 }
 footer .social-media {
     display: flex;
 }
 .social-media a img {
     height: 40px;
+}
+footer .back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    height: 50px;
+    width: 50px;
+    background: var(--color-primary-1);
+    text-align: center;
+    border-radius: 50px;
+}
+footer .back-to-top::after {
+    position: absolute;
+    content: "\2191";
+    font-size: 2.5rem;
+    right: 20px;
+    top: 5px;
 }

@@ -43,6 +43,21 @@ for (var i = 0; i < tabbtn.length; i++) {
 }
 document.querySelector(".tab-btn").click();
 
+
+// counter
+$('.count').each(function () {
+    $(this).prop('Counter', 0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+
+
 // first mega navigation ---------------------------
 let nav = document.querySelector(".nav-btn");
 nav.addEventListener("click", function () {
