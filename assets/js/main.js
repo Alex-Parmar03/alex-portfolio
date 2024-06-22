@@ -1,3 +1,4 @@
+
 // accordion -----------------------------
 let accordionitems = document.querySelectorAll(".accordion-item");
 
@@ -42,41 +43,6 @@ for (var i = 0; i < tabbtn.length; i++) {
     });
 }
 document.querySelector(".tab-btn").click();
-
-
-// counter
-$('.count').each(function () {
-    $(this).prop('Counter', 0).animate({
-        Counter: $(this).text()
-    }, {
-        duration: 4000,
-        easing: 'swing',
-        step: function (now) {
-            $(this).text(Math.ceil(now));
-        }
-    });
-});
-
-
-// first mega navigation ---------------------------
-let nav = document.querySelector(".nav-btn");
-nav.addEventListener("click", function () {
-    document.querySelector(".nav-title").classList.toggle("block");
-    document.querySelector(".nav-btn").classList.toggle("resposive-nav-btn");
-});
-
-// first mega navigation sub item open
-let meganav = document.querySelectorAll(".mega-nav");
-meganav.forEach(meganavitem => {
-    let subnav = meganavitem.querySelector(".secondary-nev");
-    meganavitem.addEventListener('click', function () {
-        for (let i = 0; i < meganav.length; i++) {
-            if (meganav[i] == meganavitem) {
-                subnav.classList.toggle("mega-nav-block");
-            }
-        }
-    });
-});
 
 // second mega navigation ---------------
 let secnav = document.querySelector(".navigation-btn");

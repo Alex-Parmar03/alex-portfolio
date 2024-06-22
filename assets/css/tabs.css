@@ -19,6 +19,10 @@
 .tab-content.block {
     display: block;
 }
+.tab-btn:hover {
+    border-bottom: 3px solid var(--color-primary-1);
+    color: var(--color-primary-1);
+} 
 .tab-btn.active {
     /* background: var(--color-primary-4); */
     border-bottom: 3px solid var(--color-primary-1);

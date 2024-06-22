@@ -56,7 +56,7 @@ h6 {
 }
 p {
     font-size: 1.6rem;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 img {
     width: 100%;
@@ -89,7 +89,7 @@ img {
     padding: 10px 20px;
     border-radius: 15px;
     transition: all 0.5s;
-    margin-top: 20px;
+    margin-top: 30px;
     font-weight: bold;
     border: 2px solid;
 }
