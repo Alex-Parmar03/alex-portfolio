@@ -32,7 +32,9 @@
     /* filter: invert(1); */
     height: 8px;
 }
-
+.accordion-lable h3 {
+    padding-right: 20px;
+}
 .active {
     height: auto;
 }

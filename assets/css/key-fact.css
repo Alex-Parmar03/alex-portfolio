@@ -1,29 +1,31 @@
 .counter-main {
-  height: 100vh;
+  height: 500px;
   width: 100%;
-  background-image: url(../images/key-facts.jpg);
+  background-image: url(../images/key-bg.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
 .counters {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   position: relative;
-  top: 250px;
+  top: 150px;
 }
 .counter {
-  text-align: center;
   color: var(--color-green);
-  font-size: 2rem;
+  font-size: clamp(1.5625rem, 1.4063rem + 0.5vw, 2rem);
+}
+.counter .sign {
+  font-size: clamp(2.1875rem, 1.8973rem + 0.9286vw, 3rem);
 }
 .count {
   line-height: 100px;
-  font-size: 5rem;
+  font-size: clamp(4rem, 3.6429rem + 1.1429vw, 5rem);
 }
 
 .counter-main .config-text {
   position: relative;
-  top: 200px  ;
+  top: 120px;
 }

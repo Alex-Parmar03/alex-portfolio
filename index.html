@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Demo glory">
+    <meta name="description" content="My portfolio">
     <title>Alex portfolio</title>
 
     <!-- main css -->
@@ -17,7 +17,7 @@
 
 <body>
     <!-- mega navigationheader start -->
-    <header>
+    <header id="navbar">
         <!-- second mega navigation start -->
         <div class="second-mega-nav">
             <div class="container">
@@ -32,8 +32,8 @@
                             </div>
                             <div class="navigation-link">
                                 <ul class="navigation-title">
-                                    <li class="mega-navigation"><a href="">About US</a>
-                                        <div class="second-mega-icon ancor">
+                                    <li class="mega-navigation"><a href="#Educational_details">Educational details</a>
+                                        <!-- <div class="second-mega-icon ancor">
                                             <span class="mega-nav-icon big-screen"></span>
                                         </div>
                                         <div class="mega-nav-two">
@@ -63,10 +63,10 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </li>
-                                    <li class="mega-navigation"><a href="">Investors</a>
-                                        <div class="second-mega-icon ancor">
+                                    <li class="mega-navigation"><a href="#Experience">Experience</a>
+                                        <!-- <div class="second-mega-icon ancor">
                                             <span class="mega-nav-icon big-screen"></span>
                                         </div>
                                         <div class="mega-nav-two">
@@ -94,10 +94,10 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </li>
-                                    <li class="mega-navigation"><a href="">Typography</a></li>
-                                    <li class="mega-navigation"><a href="">Contacts</a></li>
+                                    <li class="mega-navigation"><a href="#My_portfolio">My portfolio</a></li>
+                                    <li class="mega-navigation"><a href="#Contacts">Contacts</a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -110,12 +110,12 @@
     <!-- header end -->
     <main>
         <!-- config text strat -->
-        <div class="config-text-main p-tb wow animate__animated animate__pulse">
+        <section class="config-text-main p-tb wow animate__animated animate__bounce">
             <div class="container">
                 <div class="row">
                     <div class="offset-2 col-8">
                         <div class="config-text">
-                            <h2>Introduction</h2>
+                            <h1>Introduction</h1>
                             <P>My self Alex oliver parmar. Im a bachelor in computer application from CP Patel at anand
                                 in 2019.</P>
                             <p>Currently im working in investis digital at baroda, I have started my job from dec-2021
@@ -128,35 +128,47 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- config text end -->
 
         <!-- counter -->
-        <div class="counter-main pb ">
+        <section class="counter-main pb" id="Educational_details">
             <div class="container">
                 <div class="row">
-                    <div class="offset-1 col-6">
-                        <div class="config-text wow animate__animated animate__bounceInRight">
-                            <h2>Introduction</h2>
-                            <P>My self Alex oliver parmar. Im a bachelor in computer application from CP Patel at anand
-                                in 2019.</P>
+                    <div class="offset-lg-1 col-lg-5 offset-1 col-10  wow animate__animated animate__swing ">
+                        <div class="config-text">
+                            <h2>Educational details</h2>
+                            <P>Here is the details of my education percentage of 10th, 12th and BCA.</P>
                         </div>
-                        <div class="counters wow animate__animated animate__bounceInLeft">
+                        <div class="counters">
                             <div class="counter">
-                                <span class="count">52</span>%
-                                <span class="title">10th standerd</span>
+                                <div>
+                                    <span class="count">52</span>
+                                    <span class="sign">%</span>
+                                </div>
+                                <span class="title">10<sup>th</sup> standerd</span>
                             </div>
-                            <div class="counter"><span class="count">55</span>%</div>
-                            <div class="counter"><span class="count">67</span>%</div>
+                            <div class="counter">
+                                <div>
+                                    <span class="count">55</span>
+                                    <span class="sign">%</span>
+                                </div>
+                                <span class="title">12<sup>th</sup> standerd</span>
+                            </div>
+                            <div class="counter">
+                                <div><span class="count">67</span>
+                                    <span class="sign">CGPA</span>
+                                </div>
+                                <span class="title">BCA</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+        </section>
         <!-- counter end -->
 
         <!-- accordion start -->
-        <section class="accordion-main p-tb wow animate__animated animate__slideInRight">
+        <section class="accordion-main pt wow animate__animated animate__slideInRight" id="Experience">
             <div class="container">
                 <div class="row">
                     <div class="offset-1 col-10">
@@ -227,7 +239,7 @@
         <!-- acoordion end -->
 
         <!-- tab module start -->
-        <section class="tab-main p-tb ">
+        <section class="tab-main p-tb" id="My_portfolio">
             <div class="container">
                 <div class="row">
                     <div class="offset-2 col-8 wow animate__animated animate__backInLeft">
@@ -282,46 +294,47 @@
     </main>
 
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-2">
-                    <img src="./assets/images/logo.png" alt="logo">
-                </div>
-                <div class="offset-2 col-4">
-                    <a href="">Home</a>
-                    <a href="">About us</a>
-                </div>
-                <div class="offset-2 col-2">
-                    <div class="social-media">
-                        <a href="" target="_blank" title="Opens in a new windows"><img
-                                src="./assets/images/instagram.svg" alt=""></a>
-                        <a href="mailto:alexparmar300199@gmail.com"><img src="./assets/images/twitter.svg" alt=""></a>
-                        <a href="" target="_blank" title="Opens in a new windows"><img
-                                src="./assets/images/linkedin.svg" alt=""></a>
-                        <a href="tel:7600735258"><img src="./assets/images/instagram.svg" alt=""></a>
+        <section class="footer-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-5 col-md-3 col-lg-2">
+                        <a href="">
+                            <img src="./assets/images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <!-- <div class="offset-2 col-4">
+                        <a href="">Home</a>
+                        <a href="">About us</a>
+                    </div> -->
+                    <div class="offset-1 col-6 offset-md-6 col-md-3 offset-lg-8 col-lg-2">
+                        <div class="social-media" id="Contacts">
+                            <a href="https://wa.me/7600735258" target="_blank" title="Opens in a new windows"><img
+                                    src="./assets/images/whatsapp.png" alt="whatsapp"></a>
+                            <a href="mailto:alexparmar300199@gmail.com"><img src="./assets/images/gmail.png"
+                                    alt="gmail"></a>
+                            <a href="https://www.linkedin.com/in/alex-parmar-1a37b91b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                target="_blank" title="Opens in a new windows"><img src="./assets/images/linkedin.png"
+                                    alt="linkedin"></a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <a href="" class="back-to-top" id="back-to-top"></a>
+            <a onclick="topFunction()" class="back-to-top" id="back-to-top"></a>
+        </section>
     </footer>
 
     <!-- main js -->
     <script src="./assets/js/main.js"></script>
-
+    <script src="./assets/js/backtotop.js"></script>
     <!-- counter js -->
     <script src="https://code.jquery.com/jquery-3.7.0.js"
         integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
-    <script src="./assets/js/counter.js"></script>
-
+    <script src="./assets/js/js.js"></script>
     <!-- wow js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-
     <script>
         new WOW().init();  
     </script>
-
-
 </body>
 
 </html>

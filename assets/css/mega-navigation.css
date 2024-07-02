@@ -1,7 +1,9 @@
-/* header {
-    position: sticky;
+header {
+    position: fixed;
+    width: -webkit-fill-available;
     z-index: 1;
-} */
+    transition: all 0.5s;
+}
 
 nav {
     display: flex;
@@ -9,7 +11,7 @@ nav {
     align-items: center;
 }
 .nav-image img {
-    max-width: 120px;
+    max-width: 200px;
 }
 
 nav ul li a {
@@ -37,7 +39,6 @@ nav ul li a {
 
 nav ul li {
     list-style-type: none;
-    padding: 20px;
 }
 
 nav ul {
@@ -62,9 +63,9 @@ nav ul {
 
 /* navigation toggle button */
 nav button {
-    position: relative;
-    /* right: 5px; */
-    bottom: 35px;
+    position: absolute;
+    left: 10px;
+    top: 25px;
     display: none;
     background: none;
     border: none;
@@ -242,6 +243,7 @@ nav span.mega-nav-icon.big-screen::after {
 
     header .container {
         width: auto;
+        margin: 0px;
     }
 
     .mega-nav span.mega-nav-icon::after {
@@ -256,7 +258,7 @@ nav span.mega-nav-icon.big-screen::after {
         font-size: 1.5rem;
     }
     .nav-image {
-        padding-top: 20px ;
+        padding: 15px;
     }
 }
 
@@ -276,9 +278,9 @@ nav span.mega-nav-icon.big-screen::after {
 .mega-nav .row {
     width: 100%;
 }
-
-.mega-navigation:hover {
+.mega-navigation:hover a{
     background: var(--color-primary-4);
+    transition: all 0.5s;
 }
 
 .mega-nav-two .row .col-4:first-child {
@@ -300,7 +302,7 @@ nav span.mega-nav-icon.big-screen::after {
     margin: 30px;
     color: var(--color-primary-5);
 }
-.second-mega-nav .mega-navigation {
+.second-mega-nav .mega-navigation a{
     padding: 27px 20px;
 }
 .secondary-nevigation ul li {
@@ -353,19 +355,28 @@ nav span.mega-nav-icon.big-screen::after {
 
 @media (max-width : 992px){
     .navigation {
-        background: var(--color-primary-4);
         padding-left: 10px;
     }
-    .second-mega-nav {
-        background: none;
+    .navigation-link {
+       position: absolute;
     }
     .navigation-title {
         display: block;
-        background: var(--color-primary-4);
+        background: var(--color-primary-1);
         width: 200px;
         transform: translateX(-110%);
         transition: all 1s;
         height: 90vh;
+    }
+    nav ul li a {
+        color: var(--color-primary-5);
+    }
+    .second-mega-nav .mega-navigation a {
+        padding: 12px 20px;
+        width: 100%;
+    }
+    .mega-navigation:hover a {
+        color: var(--color-primary-1);
     }
     .mega-nav-two .row .col-4:nth-child(1), .mega-nav-two .row .col-4:nth-child(3) {
         display: none;

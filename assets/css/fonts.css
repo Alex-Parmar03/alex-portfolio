@@ -3,3 +3,8 @@
     src: url(../fonts/MARKER\ BOARD.otf);
     font-display: block;
 }
+@font-face {
+    font-family: "happy-mother";
+    src: url(../fonts/Happy\ Mother.otf);
+    display: block;
+}
