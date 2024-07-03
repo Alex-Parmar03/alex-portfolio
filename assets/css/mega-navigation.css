@@ -278,6 +278,7 @@ nav span.mega-nav-icon.big-screen::after {
 .mega-nav .row {
     width: 100%;
 }
+
 .mega-navigation:hover a{
     background: var(--color-primary-4);
     transition: all 0.5s;
@@ -357,10 +358,8 @@ nav span.mega-nav-icon.big-screen::after {
     .navigation {
         padding-left: 10px;
     }
-    .navigation-link {
-       position: absolute;
-    }
     .navigation-title {
+        position: absolute;
         display: block;
         background: var(--color-primary-1);
         width: 200px;

@@ -52,17 +52,17 @@ secnav.addEventListener('click', function () {
 });
 
 // second mega menu sub navigation open
-let secmeganavigation = document.querySelectorAll(".mega-navigation");
-secmeganavigation.forEach(navitem => {
-    let secbtn = navitem.querySelector(".ancor");
-    let show = navitem.querySelector(".mega-nav-two");
-    let backbtn = navitem.querySelector(".responsive-back-btn");
+// let secmeganavigation = document.querySelectorAll(".mega-navigation");
+// secmeganavigation.forEach(navitem => {
+//     let secbtn = navitem.querySelector(".ancor");
+//     let show = navitem.querySelector(".mega-nav-two");
+//     let backbtn = navitem.querySelector(".responsive-back-btn");
 
-    secbtn.addEventListener('click', function () {
-        show.classList.add("sec-mega-nav-block");
-    });
+//     secbtn.addEventListener('click', function () {
+//         show.classList.add("sec-mega-nav-block");
+//     });
 
-    backbtn.addEventListener('click', function () {
-        show.classList.remove("sec-mega-nav-block");
-    });
-});
+//     backbtn.addEventListener('click', function () {
+//         show.classList.remove("sec-mega-nav-block");
+//     });
+// });

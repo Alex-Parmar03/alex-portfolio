@@ -31,3 +31,8 @@ footer .back-to-top::after {
     right: 20px;
     top: 5px;
 }
+@media (max-width: 768px){
+    .social-media a img {
+        height: 35px;
+    }
+}
