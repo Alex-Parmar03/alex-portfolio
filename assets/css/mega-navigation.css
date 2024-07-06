@@ -64,8 +64,8 @@ nav ul {
 /* navigation toggle button */
 nav button {
     position: absolute;
-    left: 10px;
-    top: 25px;
+    right: 20px;
+    top: 15px;
     display: none;
     background: none;
     border: none;
@@ -237,9 +237,9 @@ nav span.mega-nav-icon.big-screen::after {
         display: block;
     }
 
-    .nav-image a {
+    /* .nav-image a {
         margin-left: 40px;
-    }
+    } */
 
     header .container {
         width: auto;
@@ -363,9 +363,10 @@ nav span.mega-nav-icon.big-screen::after {
         display: block;
         background: var(--color-primary-1);
         width: 200px;
-        transform: translateX(-110%);
+        transform: translateX(191%);
         transition: all 1s;
         height: 90vh;
+        padding: 0px;
     }
     nav ul li a {
         color: var(--color-primary-5);
@@ -448,10 +449,16 @@ nav span.mega-nav-icon.big-screen::after {
     }
 }
 
+@media (max-width: 768px){
+    .nav-image img {
+        max-width: 150px;
+    }
+}
+
 
 /* css used for both navigation */
 .block{
-    transform: translateX(-3%);
+    transform: translateX(92%);
 }
 
 .third-nev ul li {
