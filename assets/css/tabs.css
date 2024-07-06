@@ -5,7 +5,7 @@
     border: none;
     font-weight: bold;
     width: 100%;
-    border-bottom: 2px solid var(--color-primary-5);
+    border-bottom: 3px solid var(--color-primary-5);
     color: var(--color-primary-1);
 }
 
