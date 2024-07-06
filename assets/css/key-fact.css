@@ -29,3 +29,12 @@
   position: relative;
   top: 120px;
 }
+.counter .numbers {
+  height: 90px;
+}
+
+@media (max-width: 768px){
+  .counter .numbers {
+    height: 80px;
+  }
+}

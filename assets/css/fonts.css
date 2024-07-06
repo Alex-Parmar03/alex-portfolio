@@ -8,3 +8,8 @@
     src: url(../fonts/Happy\ Mother.otf);
     display: block;
 }
+@font-face {
+    display: block;
+    src: url(../fonts/static/EBGaramond-Medium.ttf);
+    font-family: bold;
+}
