@@ -53,13 +53,13 @@ a {
 
 h1 {
     font-size: clamp(3rem, 2.6429rem + 1.1429vw, 4rem);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     /* font-family: bold; */
 }
 
 h2 {
     font-size: clamp(2.875rem, 2.7411rem + 0.4286vw, 3.25rem);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 h3 {

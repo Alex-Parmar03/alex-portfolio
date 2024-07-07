@@ -10,6 +10,7 @@
     width: 100%;
     border-bottom: 3px solid var(--color-primary-5);
     color: var(--color-primary-1);
+    transition: all 0.5s;
 }
 
 .tab-buttons {
