@@ -49,6 +49,7 @@ let secnav = document.querySelector(".navigation-btn");
 secnav.addEventListener('click', function () {
     document.querySelector(".navigation-title").classList.toggle("block");
     document.querySelector(".navigation-btn").classList.toggle("resposive-nav-btn");
+    document.querySelector(".navigation-link").classList.toggle("not-click");
 });
 
 // second mega menu sub navigation open
