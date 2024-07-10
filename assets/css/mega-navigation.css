@@ -384,6 +384,7 @@ nav span.mega-nav-icon.big-screen::after {
     .navigation {
         padding-left: 10px;
         border-bottom: 1px solid var(--color-primary-1);
+        width: 150%;
     }
 
     .navigation-title {
@@ -393,7 +394,7 @@ nav span.mega-nav-icon.big-screen::after {
         width: 200px;
         transform: translateX(100%);
         transition: all 1s;
-        height: 90vh;
+        height: 100vh;
         padding: 0px;
         right: 0px;
     }
@@ -503,6 +504,7 @@ nav span.mega-nav-icon.big-screen::after {
     .navigation-link::after {
         display: none;
         height: 110vh;
+        width: 100vw;
         content: '';
         background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
     }

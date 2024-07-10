@@ -6,7 +6,7 @@ footer {
     padding: 20px 0px;
 }
 footer .social-media {
-    display: flex;
+    display: none;
 }
 .social-media a img {
     height: 40px;
@@ -34,5 +34,10 @@ footer .back-to-top::after {
 @media (max-width: 768px){
     .social-media a img {
         height: 35px;
+    }
+}
+@media (max-width: 992px){
+    footer .social-media {
+        display: flex;
     }
 }
