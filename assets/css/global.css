@@ -246,6 +246,7 @@ img {
 }
 .main-ex li p {
     margin: 5px;
+    padding-right: 100%;
 }
 
 @media (max-width: 992px){

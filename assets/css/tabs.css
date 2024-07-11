@@ -1,5 +1,8 @@
 /* .tab-main {
     background-image: url(../images/bg-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 } */
 .tab-btn {
     background: var(--color-primary-4);
