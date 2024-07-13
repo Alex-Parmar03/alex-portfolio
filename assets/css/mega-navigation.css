@@ -394,7 +394,7 @@ nav span.mega-nav-icon.big-screen::after {
         width: 200px;
         transform: translateX(100%);
         transition: all 1s;
-        height: 100vh;
+        height: 120vh;
         padding: 0px;
         right: 0px;
     }
