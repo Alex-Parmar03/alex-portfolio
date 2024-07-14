@@ -347,6 +347,10 @@ nav span.mega-nav-icon.big-screen::after {
     padding: 100px 0px;
 }
 
+.contact {
+    display: none;
+}
+
 /* Media query */
 @media (min-width : 992px) {
     .mega-nav-two {
@@ -507,6 +511,9 @@ nav span.mega-nav-icon.big-screen::after {
         width: 100vw;
         content: '';
         background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    }
+    .contact {
+        display: block;
     }
 }
 

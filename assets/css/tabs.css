@@ -20,6 +20,7 @@
 .tab-buttons {
     display: flex;
     overflow-y: auto;
+    scrollbar-width: none;
 }
 
 .tab-content {
