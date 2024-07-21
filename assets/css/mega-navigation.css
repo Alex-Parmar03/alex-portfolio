@@ -297,9 +297,7 @@ nav span.mega-nav-icon.big-screen::after {
 }
 
 .mega-navigation:hover a {
-    /* background: var(--color-primary-4);
-    transition: all 0.5s; */
-    background: var(--color-primary-1);
+    background: var(--color-primary-2);
     transition: all 0.5s;
     color: var(--color-primary-6);
     text-shadow: 2px 2px 2px var(--color-primary-5);
@@ -327,7 +325,7 @@ nav span.mega-nav-icon.big-screen::after {
 }
 
 .second-mega-nav .mega-navigation a {
-    padding: 25px 20px;
+    padding: 23px 20px;
 }
 
 .secondary-nevigation ul li {
