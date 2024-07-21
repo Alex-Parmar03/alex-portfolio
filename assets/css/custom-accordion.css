@@ -17,6 +17,7 @@
     color: var(--color-primary-5);
     cursor: auto;
     font-weight: 500;
+    text-shadow: none;
 }
 .accordion-item .accordion-content {
     background: var(--color-primary-1);
@@ -44,7 +45,10 @@
 .active {
     height: auto;
 }
-
+.active .accordion-lable {
+    background: var(--color-primary-5);
+    box-shadow: 0px 0px 10px var(--color-primary-1);
+}
 .accordion-item.active .accordion-content {
     height: auto;
     max-height: 2000px;

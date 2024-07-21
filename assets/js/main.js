@@ -51,19 +51,3 @@ secnav.addEventListener('click', function () {
     document.querySelector(".navigation-btn").classList.toggle("resposive-nav-btn");
     document.querySelector(".navigation-link").classList.toggle("not-click");
 });
-
-// second mega menu sub navigation open
-// let secmeganavigation = document.querySelectorAll(".mega-navigation");
-// secmeganavigation.forEach(navitem => {
-//     let secbtn = navitem.querySelector(".ancor");
-//     let show = navitem.querySelector(".mega-nav-two");
-//     let backbtn = navitem.querySelector(".responsive-back-btn");
-
-//     secbtn.addEventListener('click', function () {
-//         show.classList.add("sec-mega-nav-block");
-//     });
-
-//     backbtn.addEventListener('click', function () {
-//         show.classList.remove("sec-mega-nav-block");
-//     });
-// });

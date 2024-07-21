@@ -13,6 +13,18 @@ nav {
 
 .nav-image img {
     max-width: 200px;
+    transition: all 0.5;
+}
+.nav-image:hover img {
+    animation-name: logomove;
+    animation-duration: 5s;
+}
+
+@keyframes logomove {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(10deg);}
+    75% {transform: rotate(-10deg);}
+    100% {transform: rotate(0deg);}
 }
 
 nav ul li a {
@@ -296,8 +308,12 @@ nav span.mega-nav-icon.big-screen::after {
 }
 
 .mega-navigation:hover a {
-    background: var(--color-primary-4);
+    /* background: var(--color-primary-4);
+    transition: all 0.5s; */
+    background: var(--color-primary-1);
     transition: all 0.5s;
+    color: var(--color-primary-6);
+    text-shadow: 2px 2px 2px var(--color-primary-5);
 }
 
 .mega-nav-two .row .col-4:first-child {
@@ -322,7 +338,7 @@ nav span.mega-nav-icon.big-screen::after {
 }
 
 .second-mega-nav .mega-navigation a {
-    padding: 27px 20px;
+    padding: 25px 20px;
 }
 
 .secondary-nevigation ul li {
@@ -332,15 +348,6 @@ nav span.mega-nav-icon.big-screen::after {
 
 .secondary-nevigation ul li a {
     color: var(--color-primary-5);
-}
-
-.secondary-nevigation ul li:hover a {
-    color: var(--color-primary-1);
-}
-
-.secondary-nevigation li:hover {
-    padding-left: 40px;
-    background: var(--color-primary-4);
 }
 
 .hello {
