@@ -42,7 +42,6 @@ html {
     font-size: 10px;
     scrollbar-width: thin;
     scrollbar-color: var(--color-primary-1) var(--color-primary-4);
-    text-shadow: 4px 4px 4px var(--color-primary-5);
 }
 
 a {
@@ -56,12 +55,14 @@ a {
 h1 {
     font-size: clamp(3rem, 2.6429rem + 1.1429vw, 4rem);
     margin-bottom: 10px;
+    text-shadow: 4px 4px 4px var(--color-primary-5);
     /* font-family: bold; */
 }
 
 h2 {
     font-size: clamp(2.875rem, 2.7411rem + 0.4286vw, 3.25rem);
     margin-bottom: 10px;
+    text-shadow: 4px 4px 4px var(--color-primary-5);
 }
 
 h3 {
