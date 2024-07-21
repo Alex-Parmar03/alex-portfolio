@@ -47,7 +47,6 @@
 }
 .active .accordion-lable {
     background: var(--color-primary-5);
-    box-shadow: 0px 0px 10px var(--color-primary-1);
 }
 .accordion-item.active .accordion-content {
     height: auto;
