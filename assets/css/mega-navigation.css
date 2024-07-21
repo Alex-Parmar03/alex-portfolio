@@ -15,17 +15,6 @@ nav {
     max-width: 200px;
     transition: all 0.5;
 }
-.nav-image:hover img {
-    animation-name: logomove;
-    animation-duration: 5s;
-}
-
-@keyframes logomove {
-    0% {transform: rotate(0deg);}
-    25% {transform: rotate(10deg);}
-    75% {transform: rotate(-10deg);}
-    100% {transform: rotate(0deg);}
-}
 
 nav ul li a {
     text-decoration: none;
