@@ -1,15 +1,31 @@
 @font-face {
-    font-family: "marker-board";
-    src: url(../fonts/MARKER\ BOARD.otf);
+    font-family: "Alegreya-Regular";
+    src: url(../fonts/new/a/static/Alegreya-Regular.ttf);
     font-display: block;
 }
 @font-face {
-    font-family: "happy-mother";
-    src: url(../fonts/Happy\ Mother.otf);
+    font-family: "Alegreya-Medium";
+    src: url(../fonts/new/a/static/Alegreya-Medium.ttf);
     display: block;
 }
 @font-face {
+    font-family: "Alegreya-Bold";
+    src: url(../fonts/new/a/static/Alegreya-Bold.ttf);
     display: block;
-    src: url(../fonts/static/EBGaramond-Medium.ttf);
-    font-family: bold;
+}
+
+@font-face {
+    font-family: "Bitter-Regular";
+    src: url(../fonts/new/b/static/Bitter-Regular.ttf);
+    display: block;
+}
+@font-face {
+    font-family: "Bitter-Medium";
+    src: url(../fonts/new/b/static/Bitter-Medium.ttf);
+    display: block;
+}
+@font-face {
+    font-family: "Bitter-Bold";
+    src: url(../fonts/new/b/static/Bitter-Bold.ttf);
+    display: block;
 }

@@ -12,16 +12,14 @@
     --color-primary-5: #0b0c10;
     --color-primary-6: white;
     
-
-    /* --marker-board: "happy"; */
-}
-
-.bg-white {
-    background: var(--color-primary-6);
-}
-
-.bg-gray {
-    background: var(--color-primary-3);
+    /* font family */
+    --Alegreya-Regular: "Alegreya-Regular";
+    --Alegreya-Medium: "Alegreya-Medium";
+    --Alegreya-Bold: "Alegreya-Bold";
+    
+    --Bitter-Regular : "Bitter-Regular";
+    --Bitter-Medium : "Bitter-Medium";
+    --Bitter-Bold : "Bitter-Bold";
 }
 
 body {
@@ -31,7 +29,6 @@ body {
     color: var(--color-primary-1);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    /* font-family: var(--marker-board); */
 }
 
 main section:first-child {
@@ -56,55 +53,35 @@ h1 {
     font-size: clamp(3rem, 2.6429rem + 1.1429vw, 4rem);
     margin-bottom: 10px;
     text-shadow: 4px 4px 4px var(--color-primary-5);
-    /* font-family: bold; */
+    font-family: var(--Alegreya-Bold);
 }
 
 h2 {
     font-size: clamp(2.875rem, 2.7411rem + 0.4286vw, 3.25rem);
     margin-bottom: 10px;
     text-shadow: 4px 4px 4px var(--color-primary-5);
+    font-family: var(--Alegreya-Bold);
 }
 
 h3 {
     font-size: clamp(1.75rem, 1.5714rem + 0.5714vw, 2.25rem);
     margin-bottom: 10px;
-}
-
-h4 {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-}
-
-h5 {
-    font-size: 1.6rem;
-    margin-bottom: 10px;
-}
-
-h6 {
-    font-size: 1.4rem;
-    margin-bottom: 10px;
+    font-family: var(--Alegreya-Medium);
 }
 
 p {
     font-size: clamp(1.25rem, 1.1384rem + 0.3571vw, 1.5625rem);
     margin-bottom: 10px;
     color: var(--color-primary-6);
+    font-family: var(--Alegreya-Regular);
 }
 
 img {
     width: 100%;
 }
 
-.p-tb {
+.module-spacing {
     padding: 100px 0px;
-}
-
-.pt {
-    padding-top: 100px;
-}
-
-.pb {
-    padding-bottom: 100px;
 }
 
 .primary-cta {
@@ -118,14 +95,11 @@ img {
     border-bottom: 1px solid;
     font-weight: bold;
     margin-bottom: 5px;
-    text-shadow: none;
-    text-shadow: 1px 1px 1px var(--color-primary-5);
 }
 
 .primary-cta:hover {
     background-size: 100% 100%;
-    color: var(--color-primary-1);
-    text-shadow: 1px 1px 1px var(--color-primary-5);
+    color: var(--color-primary-5);
 }
 
 .secondary-cta {
@@ -136,7 +110,6 @@ img {
     color: var(--color-primary-3);
     margin-top: 30px;
     font-weight: bold;
-    text-shadow: none;
 }
 
 .secondary-cta:hover {
@@ -154,9 +127,7 @@ img {
     color: var(--color-primary-3);
     margin-top: 30px;
     font-weight: bold;
-    position: relative;
-    text-shadow: none;
-    
+    position: relative;  
 }
 .download-cta::after {
     content: '';
@@ -189,16 +160,8 @@ img {
 }
 
 @media (max-width: 992px) {
-    .p-tb {
+    .module-spacing {
         padding: 80px 0px;
-    }
-
-    .pt {
-        padding-top: 80px;
-    }
-
-    .pb {
-        padding-bottom: 80px;
     }
 
     main section:first-child {
@@ -207,16 +170,8 @@ img {
 }
 
 @media (max-width: 768px) {
-    .p-tb {
+    .module-spacing {
         padding: 60px 0px;
-    }
-
-    .pt {
-        padding-top: 60px;
-    }
-
-    .pb {
-        padding-bottom: 60px;
     }
 
     main section:first-child {
