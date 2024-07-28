@@ -29,6 +29,7 @@ footer .back-to-top {
     cursor: pointer;
     border: 2px solid var(--color-primary-1);
     transition: all 0.5s;
+    font-family: none;
 }
 
 footer .back-to-top:hover {
@@ -40,8 +41,8 @@ footer .back-to-top::after {
     position: absolute;
     content: "\2191";
     font-size: 2.5rem;
-    right: 18px;
-    top: 5px;
+    right: 17px;
+    top: 4px;
     text-shadow: 3px 3px 4px black;
 }
 
@@ -50,7 +51,7 @@ footer .back-to-top:hover::after {
 }
 
 
-/* ex */
+/* social links */
 .social-links {
     position: fixed;
     top: 40%;
@@ -64,7 +65,7 @@ footer .back-to-top:hover::after {
 }
 
 .social-links ul li a {
-    padding: 5px 10px 5px 5px;
+    padding: 5px;
     display: flex;
     align-items: center;
 }
@@ -73,7 +74,7 @@ footer .back-to-top:hover::after {
     background: var(--color-primary-1);
     /* margin-bottom: 10px; */
     position: relative;
-    right: -85px;
+    right: -92px;
     transition: all 0.5s;
     list-style-type: none;
     cursor: pointer;

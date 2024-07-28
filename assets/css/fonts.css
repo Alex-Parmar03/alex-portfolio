@@ -1,31 +1,15 @@
 @font-face {
-    font-family: "Alegreya-Regular";
-    src: url(../fonts/new/a/static/Alegreya-Regular.ttf);
+    font-family: "Montserrat-Regular";
+    src: url(../fonts/static/Montserrat-Regular.ttf);
     font-display: block;
 }
 @font-face {
-    font-family: "Alegreya-Medium";
-    src: url(../fonts/new/a/static/Alegreya-Medium.ttf);
+    font-family: "Montserrat-Medium";
+    src: url(../fonts/static/Montserrat-Medium.ttf);
     display: block;
 }
 @font-face {
-    font-family: "Alegreya-Bold";
-    src: url(../fonts/new/a/static/Alegreya-Bold.ttf);
-    display: block;
-}
-
-@font-face {
-    font-family: "Bitter-Regular";
-    src: url(../fonts/new/b/static/Bitter-Regular.ttf);
-    display: block;
-}
-@font-face {
-    font-family: "Bitter-Medium";
-    src: url(../fonts/new/b/static/Bitter-Medium.ttf);
-    display: block;
-}
-@font-face {
-    font-family: "Bitter-Bold";
-    src: url(../fonts/new/b/static/Bitter-Bold.ttf);
+    font-family: "Montserrat-Bold";
+    src: url(../fonts/static/Montserrat-Bold.ttf);
     display: block;
 }

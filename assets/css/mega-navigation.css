@@ -24,44 +24,12 @@ nav ul li a {
     display: block;
 }
 
-.mega-navigation-main nav ul li a::after {
-    content: '';
-    display: block;
-    position: relative;
-    top: 4px;
-    width: 0px;
-    height: 3px;
-    background: var(--color-primary-4);
-    transition: all 1s;
-}
-
-.mega-navigation-main nav ul li a:hover::after {
-    width: 100%;
-}
-
 nav ul li {
     list-style-type: none;
 }
 
 nav ul {
     margin: 0px;
-}
-
-.mega-navigation-main {
-    border: 1px solid var(--color-primary-1);
-    margin: 10px 0px;
-}
-
-.nav-title {
-    display: flex;
-    text-align: center;
-    padding: 0px;
-    background: var(--color-white);
-}
-
-.nav-title li,
-.mega-navigation {
-    cursor: pointer;
 }
 
 /* navigation toggle button */
@@ -126,157 +94,23 @@ nav button.resposive-nav-btn span:nth-child(3) {
     opacity: 0;
 }
 
-/* mega nav */
-.mega-nav {
-    position: relative;
-}
-
-.secondary-nev {
-    display: none;
-    position: relative;
-    background: var(--color-primary-5);
-}
-
-.secondary-nev ul li {
-    padding-bottom: 0px;
-}
-
-.third-nev {
-    display: none;
-    position: absolute;
-    left: 228px;
-    width: max-content;
-    top: 15px;
-    border: 1px solid var(--color-border);
-    background: var(--color-white);
-}
-
-.third-nev-main {
-    position: relative;
-}
-
-.third-nev-main:hover .third-nev {
-    display: block;
-}
-
-
-/* icon */
-nav span.mega-nav-icon {
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: x-large;
-    width: 46px;
-}
-
-nav span.mega-nav-icon::after {
-    display: block;
-    content: '\203A';
-    position: absolute;
-    top: 10px;
-    left: 20px;
-}
-
-nav .mega-navigation span.mega-nav-icon {
-    top: 8px;
-}
-
-nav span.mega-nav-icon.big-screen::after {
-    left: 20px;
-}
-
 /* media query */
-@media (min-width: 992px) {
-    .secondary-nev {
-        position: absolute;
-        top: 69px;
-        left: 0;
-        border: 1px solid var(--color-primary-4);
-        width: max-content;
-    }
-
-    .third-nev {
-        position: absolute;
-        left: 100%;
-        top: 0;
-        width: max-content;
-    }
-
-    .mega-nav:hover .secondary-nev {
-        display: block;
-    }
-
-    nav span.mega-nav-icon {
-        top: 2px;
-        left: 125px;
-        width: 46px;
-    }
-
-    .secondary-nev ul li {
-        padding-right: 40px;
-    }
-
-    nav .mega-nav-icon.big-screen::after {
-        display: none;
-    }
-
-    .secondary-nev ul:last-child {
-        padding-bottom: 20px;
-    }
-}
-
 @media (max-width: 992px) {
-    .nav-title {
-        position: absolute;
-        transform: translateX(-110%);
-        transition: all 1s;
-        display: block;
-        width: 250px;
-        border: 1px solid var(--color-primary-4);
-        min-height: 100vh;
-        text-align: justify;
-    }
-
-    .nav-title .mega-nav {
-        padding-bottom: 0px;
-    }
 
     nav button,
-    nav,
-    .mega-nav-block {
+    nav {
         display: block;
     }
-
-    /* .nav-image a {
-        margin-left: 40px;
-    } */
 
     header .container {
         width: auto;
         margin: 0px;
     }
 
-    .mega-nav span.mega-nav-icon::after {
-        left: 40px;
-    }
-
-    .secondary-nev .navigation-back-btn {
-        position: absolute;
-        top: 1px;
-        right: 10px;
-        content: "back";
-        font-size: 1.5rem;
-    }
-
     .nav-image {
         padding: 15px;
     }
 }
-
-
-
-
-
 
 /* --------------------- second mega navigation ----------------------- */
 .second-mega-nav {
@@ -288,23 +122,16 @@ nav span.mega-nav-icon.big-screen::after {
     display: flex;
 }
 
-.mega-nav .row {
-    width: 100%;
-}
-
 .navigation {
     background: var(--color-primary-5);
 }
 
-.mega-navigation:hover a {
+.mega-navigation:hover a,
+.mega-navigation a.active {
     background: var(--color-primary-2);
     transition: all 0.5s;
     color: var(--color-primary-6);
     text-shadow: 2px 2px 2px var(--color-primary-5);
-}
-
-.mega-nav-two .row .col-4:first-child {
-    border: none;
 }
 
 .mega-navigation-image {
@@ -316,29 +143,8 @@ nav span.mega-nav-icon.big-screen::after {
     box-shadow: 1px 1px 10px var(--color-primary-5);
 }
 
-.mega-nav-two .main-navigation-details {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 30px;
-    color: var(--color-primary-5);
-}
-
 .second-mega-nav .mega-navigation a {
     padding: 23px 20px;
-}
-
-.secondary-nevigation ul li {
-    transition: all 0.5s;
-    padding: 10px 20px;
-}
-
-.secondary-nevigation ul li a {
-    color: var(--color-primary-5);
-}
-
-.hello {
-    padding: 100px 0px;
 }
 
 .contact {
@@ -346,38 +152,6 @@ nav span.mega-nav-icon.big-screen::after {
 }
 
 /* Media query */
-@media (min-width : 992px) {
-    .mega-nav-two {
-        position: absolute;
-        width: -webkit-fill-available;
-        background-color: var(--color-primary-2);
-        left: 0;
-        top: 75px;
-        display: block;
-        visibility: hidden;
-        opacity: 0;
-        z-index: 5;
-        padding: 20px;
-    }
-
-    .mega-nav-two .row .col-4 {
-        border-left: 1px solid var(--color-primary-5);
-        padding: 0px;
-    }
-
-    .mega-navigation:hover .mega-nav-two {
-        display: block;
-        visibility: visible;
-        opacity: 1;
-        top: 79px;
-        transition: all 0.5s;
-    }
-
-    .responsive-back-btn {
-        display: none;
-    }
-}
-
 @media (max-width : 992px) {
     .navigation {
         padding-left: 10px;
@@ -410,70 +184,13 @@ nav span.mega-nav-icon.big-screen::after {
         color: var(--color-primary-1);
     }
 
-    .mega-nav-two .row .col-4:nth-child(1),
-    .mega-nav-two .row .col-4:nth-child(3) {
-        display: none;
-    }
-
-    .mega-nav-two {
-        position: absolute;
-        width: 192px;
-        transform: translateX(-125%);
-        top: 0 !important;
-        height: -webkit-fill-available;
-        transition: all 1s;
-        z-index: 5;
-    }
-
-    .navigation-title li.mega-navigation:nth-child(2) .mega-nav-two {
-        top: -100% !important;
-    }
-
     .second-mega-nav .col-12 {
         padding: 0px;
-    }
-
-    .secondary-nevigation {
-        background: var(--color-primary-1);
-        padding-top: 20px;
-        width: 200px;
-        height: 90vh;
-    }
-
-    .mega-navigation .responsive-back-btn {
-        position: fixed;
-        top: 2px;
-        right: 10px;
-        display: block;
-        padding: 3px 5px;
-        font-size: 1.1rem;
-        text-decoration: underline;
-        color: var(--color-primary-5);
-    }
-
-    .sec-mega-nav-block {
-        transform: translateX(-10%);
     }
 
     .mega-navigation {
         transition: all 1s;
         padding: 15px !important;
-    }
-
-    .mega-navigation .second-mega-icon {
-        /* position: relative;
-        bottom: 50px;
-        left: 20px; */
-        position: absolute;
-        background: var(--color-green);
-        width: 35px;
-        height: 56px;
-        bottom: 0px;
-        right: 0px;
-    }
-
-    .mega-navigation .second-mega-icon:hover {
-        background: var(--color-light-green);
     }
 
     .second-mega-nav .mega-navigation {
@@ -483,15 +200,6 @@ nav span.mega-nav-icon.big-screen::after {
 
     .mega-navigation a {
         padding: 15px;
-    }
-
-    .ancor .mega-nav-icon::after {
-        top: 0;
-        left: 25px !important;
-    }
-
-    .mega-navigation .secondary-nevigation li {
-        padding: 0px !important;
     }
 
     .second-mega-nav {
@@ -506,7 +214,16 @@ nav span.mega-nav-icon.big-screen::after {
         content: '';
         background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
     }
+
     .contact {
+        display: block;
+    }
+
+    .block {
+        transform: translateX(0);
+    }
+
+    .not-click::after {
         display: block;
     }
 }
@@ -515,16 +232,4 @@ nav span.mega-nav-icon.big-screen::after {
     .nav-image img {
         max-width: 150px;
     }
-}
-
-
-/* css used for both navigation */
-.block {
-    transform: translateX(0);
-}
-.not-click::after {
-    display: block;
-}
-.third-nev ul li {
-    padding-right: 20px;
 }

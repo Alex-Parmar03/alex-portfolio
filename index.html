@@ -6,19 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="My portfolio">
     <title>Alex portfolio</title>
-
     <link rel="icon" type="image/x-icon" href=".//assets/images/favicon.png">
+
     <!-- main css -->
     <link rel="stylesheet" href="./assets/css/main.css">
-
-    <!-- wow ja css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 </head>
 
 <body>
-    <!-- mega navigationheader start -->
+    <!-- header start -->
     <header id="navbar">
+        <!-- mega navigation start -->
         <div class="second-mega-nav">
             <div class="container">
                 <div class="row">
@@ -32,6 +30,8 @@
                             </div>
                             <div class="navigation-link">
                                 <ul class="navigation-title">
+                                    <li class="mega-navigation"><a href="#intro" class="active">Introduction</a>
+                                    </li>
                                     <li class="mega-navigation"><a href="#Educational_details">Educational Details</a>
                                     </li>
                                     <li class="mega-navigation"><a href="#Experience">Experience</a>
@@ -47,11 +47,14 @@
                 </div>
             </div>
         </div>
+        <!-- mega navigation end -->
     </header>
-    <!-- mega navigationheader end -->
+    <!-- header end -->
+
+    <!-- main section start -->
     <main>
-        <!-- config text strat -->
-        <section class="profile-main module-spacing">
+        <!-- config text module strat -->
+        <section class="profile-main module-spacing" id="intro">
             <div class="container">
                 <div class="row">
                     <div
@@ -77,15 +80,15 @@
                     </div>
                     <div class="offset-1 col-10 offset-md-1 col-md-6 offset-lg-1 col-lg-5">
                         <div class="profile-img wow animate__animated animate__shakeY">
-                            <img src="./assets/images/new.png" alt="profile image">
+                            <img src="./assets/images/image-4.svg" alt="profile image">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- config text end -->
+        <!-- config text module end -->
 
-        <!-- counter -->
+        <!-- counter module start -->
         <section class="counter-main module-spacing pt-0" id="Educational_details">
             <div class="container">
                 <div class="row">
@@ -119,10 +122,10 @@
                     </div>
                 </div>
         </section>
-        <!-- counter end -->
+        <!-- counter module end -->
 
-        <!-- accordion start -->
-        <section class="accordion-main module-spacing pb-0 wow animate__animated animate__slideInRight" id="Experience">
+        <!-- accordion module start -->
+        <section class="accordion-main module-spacing wow animate__animated animate__slideInRight" id="Experience">
             <div class="container">
                 <div class="row">
                     <div class="offset-1 col-10">
@@ -194,7 +197,7 @@
                 </div>
             </div>
         </section>
-        <!-- acoordion end -->
+        <!-- acoordion module end -->
 
         <!-- tab module start -->
         <section class="tab-main module-spacing" id="My_portfolio">
@@ -255,7 +258,7 @@
         </section>
         <!-- tab module end -->
 
-        <!-- ex -->
+        <!-- social link start -->
         <section class="social-links">
             <div class="social-main">
                 <ul>
@@ -273,12 +276,16 @@
                     <li> <a href="https://www.linkedin.com/in/alex-parmar-1a37b91b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                             target="_blank" title="Linkedin"><img src="./assets/images/linkedin.png" alt="linkedin">
                             <p>Linkedin</p>
-                        </a></li>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </section>
+        <!-- social link end -->
     </main>
+    <!-- main section end -->
 
+    <!-- footer start -->
     <footer>
         <section class="footer-main">
             <div class="container">
@@ -304,6 +311,7 @@
             <a onclick="topFunction()" class="back-to-top" id="back-to-top" title="Back to top"></a>
         </section>
     </footer>
+    <!-- footer end -->
 
     <!-- main js -->
     <script src="./assets/js/main.js"></script>
@@ -311,14 +319,16 @@
     <!-- counter js -->
     <script src="https://code.jquery.com/jquery-3.7.0.js"
         integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
-    <script src="./assets/js/js.js"></script>
+    <script src="./assets/js/counter.js"></script>
     <!-- wow js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
         new WOW().init();  
     </script>
+    <!-- animation js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <script src="./assets/js/global.js"></script>
+    <script src="./assets/js/text-animation.js"></script>
+
 </body>
 
 </html>

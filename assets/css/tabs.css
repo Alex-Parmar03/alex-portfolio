@@ -1,9 +1,7 @@
-/* .tab-main {
-    background-image: url(../images/bg-bg.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
+.tab-main {
+    background: linear-gradient(to right, var(--color-primary-4), var(--color-primary-2));
+}
+
 .tab-btn {
     background: var(--color-primary-4);
     padding: 10px 20px;
@@ -20,8 +18,7 @@
 .tab-buttons {
     display: flex;
     overflow-y: auto;
-    scrollbar-width: none
-    ;
+    scrollbar-width: none;
 }
 
 .tab-content {
@@ -48,6 +45,7 @@
     .tab-main .offset-2 {
         padding: 0px;
     }
+
     .tab-main .container {
         padding: 0px;
     }

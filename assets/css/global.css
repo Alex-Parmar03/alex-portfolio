@@ -11,15 +11,11 @@
     --color-primary-4: #1f2833;
     --color-primary-5: #0b0c10;
     --color-primary-6: white;
-    
+
     /* font family */
-    --Alegreya-Regular: "Alegreya-Regular";
-    --Alegreya-Medium: "Alegreya-Medium";
-    --Alegreya-Bold: "Alegreya-Bold";
-    
-    --Bitter-Regular : "Bitter-Regular";
-    --Bitter-Medium : "Bitter-Medium";
-    --Bitter-Bold : "Bitter-Bold";
+    --Montserrat-Regular: "Montserrat-Regular";
+    --Montserrat-Medium: "Montserrat-Medium";
+    --Montserrat-Bold: "Montserrat-Bold";
 }
 
 body {
@@ -47,33 +43,34 @@ a {
     display: block;
     text-decoration: none;
     color: var(--color-primary-5);
+    font-family: var(--Montserrat-Medium);
 }
 
 h1 {
     font-size: clamp(3rem, 2.6429rem + 1.1429vw, 4rem);
     margin-bottom: 10px;
     text-shadow: 4px 4px 4px var(--color-primary-5);
-    font-family: var(--Alegreya-Bold);
+    font-family: var(--Montserrat-Bold);
 }
 
 h2 {
     font-size: clamp(2.875rem, 2.7411rem + 0.4286vw, 3.25rem);
     margin-bottom: 10px;
     text-shadow: 4px 4px 4px var(--color-primary-5);
-    font-family: var(--Alegreya-Bold);
+    font-family: var(--Montserrat-Bold);
 }
 
 h3 {
     font-size: clamp(1.75rem, 1.5714rem + 0.5714vw, 2.25rem);
     margin-bottom: 10px;
-    font-family: var(--Alegreya-Medium);
+    font-family: var(--Montserrat-Medium);
 }
 
 p {
     font-size: clamp(1.25rem, 1.1384rem + 0.3571vw, 1.5625rem);
     margin-bottom: 10px;
     color: var(--color-primary-6);
-    font-family: var(--Alegreya-Regular);
+    font-family: var(--Montserrat-Regular);
 }
 
 img {
@@ -127,8 +124,9 @@ img {
     color: var(--color-primary-3);
     margin-top: 30px;
     font-weight: bold;
-    position: relative;  
+    position: relative;
 }
+
 .download-cta::after {
     content: '';
     position: absolute;
@@ -148,6 +146,7 @@ img {
     color: var(--color-primary-6);
     text-shadow: 2px 2px 2px var(--color-primary-5);
 }
+
 .download-cta:hover:after {
     filter: brightness(0);
 }
