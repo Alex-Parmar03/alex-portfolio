@@ -1,5 +1,6 @@
-.profile h3 {
+.profile .h3 {
     color: var(--color-primary-6);
+    display: block;
 }
 
 .profile-img img {
