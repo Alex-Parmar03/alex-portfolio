@@ -10,7 +10,9 @@
     color: var(--color-primary-1);
     font-size: 1.6rem;
 }
-
+.accordion-content .content-mian {
+    overflow: hidden;
+}
 .accordion-content .content {
     padding: 20px 30px 20px;
 }
@@ -22,11 +24,9 @@
 
 .accordion-item .accordion-content {
     background: var(--color-primary-1);
-    height: 0px;
-    overflow: hidden;
-    transition: all 2.5s ease-in-out;
-    padding: 0;
-    max-height: 0px;
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: all 1s ease-in-out;
 }
 
 .accordion-lable h3 span.accordion-icon {
@@ -45,13 +45,8 @@
     margin: 0px;
 }
 
-.active {
-    height: auto;
-}
-
 .accordion-item.active .accordion-content {
-    height: auto;
-    max-height: 2000px;
+   grid-template-rows: 1fr;
 }
 
 .accordion-item.active .accordion-lable h3 span {
